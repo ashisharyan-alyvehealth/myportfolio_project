@@ -1,0 +1,48 @@
+.skill-card {
+    width: max-content;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 6px;
+    border-radius: 8px;
+  }
+  
+  .skill-icon {
+    font-size: 80px;
+  }
+  
+  .skill-name {
+      font-size: 24px;
+    padding: 4px 8px;
+    background-color: aquamarine;
+    border-radius: 4px;
+    margin-right: 6px;
+    margin-bottom: 4px;
+  }
+  
+  @media only screen and (max-width: 720px) {
+    .skill-card {
+      width: max-content;
+      padding: 2px 1px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      margin: 1px;
+      border-radius: 2px;
+    }
+    .skill-icon {
+      font-size: 5px;
+    }
+    .skill-name {
+      display: inline;
+    font-size: 18px;
+    padding: 4px 8px;
+    background-color: aquamarine;
+    border-radius: 4px;
+    margin-right: 6px;
+    margin-bottom: 4px;
+  }
+  }
